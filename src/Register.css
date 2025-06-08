@@ -1,0 +1,72 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #f2f1f9;
+  font-family: Arial, sans-serif;
+}
+
+.register-image-section {
+  flex: 1;
+  text-align: center;
+}
+
+.register-image {
+  width: 80%;
+  max-width: 400px;
+}
+
+.register-form-section {
+  flex: 1;
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 450px;
+}
+
+.register-form-section h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+.name-fields {
+  display: flex;
+  gap: 10px;
+}
+
+.name-fields input {
+  flex: 1;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2e75f0;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-link a {
+  color: #2e75f0;
+  text-decoration: none;
+  font-weight: bold;
+}
