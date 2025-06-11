@@ -1,17 +1,16 @@
 // import React from 'react'; 
 // import '../image';
 
-import React, { useState } from 'react';
-import '../public/Register.css';
+import '../../Css'
 // import '../public/' 
-// function Register() { 
-//   return ( 
-//     <div style={{ textAlign: 'center', marginTop: '100px' }}> 
-//       <h2>Register Page</h2>
+function Register() { 
+  return ( 
+    <div style={{ textAlign: 'center', marginTop: '100px' }}> 
+      <h2>Register Page</h2>
        
-//     </div> 
-//   ); 
-// }
+    </div> 
+  ); 
+}
 
 
 function Register(){
@@ -22,6 +21,11 @@ function Register(){
 
  const Register = () => {
   
+  const onSubmit = (data) => {
+    localStorage.setItem("user",JSON.stringify(data));
+    alert("Registered successfully!");
+    Navigate("/login");
+  };
 
   return (
     <div className="register-container">
